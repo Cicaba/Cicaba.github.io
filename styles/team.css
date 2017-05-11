@@ -1,0 +1,20 @@
+#team .title_txte
+{
+	height: 164px;
+	border-bottom: solid 1px #D43B33;
+}
+#team img
+{
+	width: 616px;
+	height: 460px;
+}
+#team .img_content
+{
+	margin:0px auto;
+	width: 616px;
+	height: 460px;
+}
+#team .text_content
+{
+	line-height: 28px;
+}

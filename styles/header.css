@@ -1,0 +1,43 @@
+/*顶部*/
+.red-bgcolor
+{
+	background: #d43b33;
+}
+#header #nav>ul>li
+{
+	float:right ;
+	padding: 30px 0px 25px 30px;
+	font-size: 16px;
+	color: white;
+	position: relative;
+}
+#header #nav>ul>li>ul
+{
+	display: none;
+	position:absolute ;
+	color: #FFFFFF;
+	background: rgba(0,0,0,0.6);
+	margin-top:25px ;
+	width: 100px;
+}
+#header #nav>ul>li:hover .sub_menu
+{
+	display: block;
+
+}
+#header ul>li>a
+{
+	color: white;
+	padding-bottom:25px ;
+}
+#header #nav>ul>li>a:hover
+{
+	color: darkorange;
+	text-decoration:none ;
+	background: url(../imgs/nav_bg.png) no-repeat center bottom;
+}
+/*广告图片*/
+#banner img
+{
+width: 100%;	
+}

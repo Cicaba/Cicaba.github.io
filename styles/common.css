@@ -1,0 +1,67 @@
+/*公用*/
+.pud-width
+{
+	width: 100%;
+}
+.pud-width1000
+{
+	width: 1000px;
+	margin:0px auto;
+}
+.float-left{float: left;}
+.float-right{float:right;}
+.clear{clear: both;}
+.text_center{text-align: center;}
+.font_bold{font-weight: bold;}
+.line_height{line-height: 28px;}
+body{
+	color:#ccc ;
+}
+.red_text
+{
+	color: #d43b37;
+}
+
+.size14
+{
+	font-size: 14px;
+}
+.size16
+{
+	font-size: 16px;
+}
+.size18
+{
+	font-size: 18px;
+}
+.size20
+{
+	font-size: 20px;
+}
+.color_000
+{
+	color: #000000;
+}
+.color_ccc
+{
+	color: #ccc;
+}
+.margin20
+{
+	margin: 20px 0px;
+}
+.service
+{
+	/*background: #4B4B4B;
+	width: 72px;
+	height: 291PX;*/
+	cursor: pointer;
+	position: fixed;
+	top: 240px;
+	right: 0px;
+}
+.service div{
+	width: 72px;
+	height: 72px;
+	background: #4B4B4B;
+}

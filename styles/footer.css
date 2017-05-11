@@ -1,0 +1,17 @@
+/*尾部*/
+#footer
+{
+	height: 318px;
+	background: url(../imgs/bottombg.png);
+	line-height: 30px;
+	padding-top:60px ;
+	margin-top: 30px;
+}
+#footer .logo
+{
+	width: 228px;
+}
+#footer .color_ccc
+{
+	color: white;
+}
