@@ -1,0 +1,39 @@
+/*结算中心*/
+#head{
+	position: relative;
+	background: #101010;
+	height: 22px;
+}
+#head .lego{
+	position: relative;
+	left: 262px;
+	height: 22px;
+	line-height: 22px;
+	display: block;
+	color: white;
+}
+#head .log{
+	position: absolute;
+	top: 0px;
+}
+#head .lego_login{
+	color: white;
+	height: 22px;
+	line-height: 22px;
+	padding-top: 2px;
+}
+#head .lego_login a{
+	color: #FF6600;
+}
+#head .login_text{
+	width: 450px;
+	height: 72px;
+	margin-top: 10px;
+}
+#head .login_text input{
+	width: 394px;
+	height: 32.4px;
+	outline: none;
+	margin-bottom: 10px;
+}
+/*购物车内容*/

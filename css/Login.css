@@ -1,0 +1,134 @@
+@font-face {
+		font-family: "iconfont";
+          src:url(../font/iconfont.ttf);
+        }
+/*头部*/
+#head{
+	position: relative;
+	background: #101010;
+	height: 22px;
+}
+#head .lego{
+	position: absolute;
+	left: 450px;
+	top: 2px;
+	color: white;
+}
+#head .log{
+	position: absolute;
+	top: 0px;
+}
+#head .lego_login{
+	color: white;
+	text-align: right;
+	padding-top: 2px;
+}
+#head .lego_login a{
+	color: #FF6600;
+}
+#head .login_text{
+	width: 920px;
+	height: 87px;
+	line-height: 87px;
+}
+/*登陆*/
+.bg_login{
+	background: #e93854;
+	height: 520px;
+}
+.bg_login .width1920{
+	width: 1920px;
+	height: 520px;
+	background: url(../img/bg.jpg);
+}
+.bg_login .width1920 .login_box{
+	width: 350px;
+	height: 370px;
+	background: white;
+	position: relative;
+	left: 1100px;
+	top: 70px;
+}
+.bg_login .width1920 .login_box .login_btn{
+	width: 350px;
+	height: 56px;
+	border-bottom:solid 1px #ccc ;
+	position: relative;
+}
+.bg_login .width1920 .login_box label{
+	position: absolute;
+	top: 15px;
+}
+#btn1{
+	right: 215px;
+}
+#btn2{
+	right: 50px;
+}
+.bg_login .width1920 .login_box input:checked +label{
+	color: #FF4D17;
+}
+.bg_login .width1920 .login_box input[type="radio"]{
+	display: none;
+}
+.bg_login .width1920 .login_box .yard_img{
+	width: 350px;
+	height: 315px;
+	display: none;
+	position: relative;
+}
+.bg_login .width1920 .login_box input:checked ~.yard_img{
+	display: block;
+}
+.bg_login .width1920 .login_box .yard_img .yh{
+	width: 294px;
+	height: 200px;
+	border-bottom: solid 1px #ccc;
+	padding: 30px 28px;
+}
+.bg_login .width1920 .login_box .yard_img .yh input[placeholder]{
+	width: 246px;
+	height: 40px;
+	margin-bottom: 18px;
+	outline: none;
+	padding-left: 44px;
+}
+.bg_login .width1920 .login_box .yard_img .yh .motion{
+	width: 80px;
+	height: 22px;
+	line-height: 22px;
+}
+.bg_login .width1920 .login_box .yard_img .yh .denglu{
+	width: 290px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	background: #FF6600;
+	color: white;
+}
+.bg_login .width1920 .login_box .yard_img .register{
+	margin-top: 10px;
+	color: #FF0000;
+}
+.bg_login .width1920 .login_box .yard_img .yh .icons{
+	font-family: "iconfont";
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+	background: #f2f2f2;
+	font-size: 32px;
+}
+.bg_login .width1920 .login_box .yard_img .yh .icons1{
+	position: absolute;
+	top: 31px;
+}
+.bg_login .width1920 .login_box .yard_img .yh .icons2{
+	position: absolute;
+	top: 93px;
+}
+/*页尾*/
+.boof{
+	height: 200px;
+	padding-top: 50px;
+}

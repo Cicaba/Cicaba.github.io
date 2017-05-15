@@ -1,0 +1,60 @@
+/*公共*/
+.width_auto{
+	width: 100%;
+}
+.width-1200{
+	width: 1200px;
+	height: 100%;
+	margin: 0px auto;
+}
+.align_right{
+	text-align: right;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clear_float{
+	clear: both;
+}
+.bd{
+	border: solid 2px red;
+}
+.text_align{
+	text-align: center;
+}
+.margin_auto{
+	margin: 0px auto;
+}
+.margin_top{
+	margin-top: 10px;
+}
+.margin_left{
+	margin-left: -1px;
+}
+.size14{
+	font-size: 14px;
+}
+.size16{
+	font-size: 16px;
+}
+.size18{
+	font-size: 18px;
+}
+.size20{
+	font-size: 20px;
+}
+.size22{
+	font-size: 22px;
+}
+.color_red{
+	color: red;
+}
+.color_ccc{
+	color: #CCCCCC;
+}
+.colorf60{
+	color: #FF6600;
+}

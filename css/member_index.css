@@ -1,0 +1,207 @@
+/*头部*/
+#head #head_bg{
+	height: 28px;
+	width: 100%;
+	background: #101010;
+	color: #b0b0b0;
+	margin-bottom: 2px;
+	text-align: right;
+}
+#head #head_bg a{
+	line-height: 28px;
+	color: #ff6600;
+}
+#head #VIP{
+	width: 942px;
+	height: 77px;
+}
+#head #VIP #vip_left{
+	width: 480px;
+	height: 77px;
+	line-height: 77px;
+	font-size: 22px;
+	text-indent: 15px;
+	color: #CCCCCC;
+}
+#head #VIP .btn_index{
+	width: 80px;
+	height: 36px;
+	background: #FF6600;
+	margin-top: 20px;
+	line-height: 36px;
+}
+#head #VIP .btn_index a{
+	color: white;
+}
+#head #VIP #vip_right{
+	width: 462px;
+	height: 77px;
+	line-height: 77px;
+	font-size: 22px;
+}
+#head #VIP #vip_right li{
+	display: inline-block;
+	margin: 0px 40px;
+	color: #CCCCCC;
+}
+#head #VIP #vip_right li a{
+	color: #CCCCCC
+}
+/*焦点轮播图*/
+#focus_img{
+	background: url(../img/bac.jpg);
+	height: 500px;
+}
+#focus_img .img_left,.img_right,.lunbo{
+	margin-top: 15px;
+}
+#focus_img .img_left,.img_right{
+	width: 230px;
+	height: 474px;
+}
+#focus_img .lunbo{
+	width: 734px;
+	height: 474px;
+	margin-left: 3px;
+}
+/*广告滚动*/
+#Advertising_scrolling{
+	background: #f5f5f5;
+	height: 190px;
+}
+#Advertising_scrolling .imgs div{
+	margin-top: 20px;
+}
+#Advertising_scrolling .mgar{
+	margin-right: 18px;
+}
+/*乐豆商品*/
+.title_borders{
+	height: 70px;
+	border-bottom: #ff6600 6px solid;
+}
+.title_borders .title_text{
+	width: 188px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	background: #ff6600;
+	position: relative;
+	bottom: -22px;
+}
+.Commodity_content{
+	height: 642px;
+}
+.Commodity_content li{
+	width: 210px;
+	height: 290px;
+	border: solid 2px #e6e6e6;
+}
+.Commodity_content .Commodity_images img{
+	width: 210px;
+	height: 182px;
+}
+.Commodity_content .introduce{
+	background: #f5f5f5;
+	height: 108px;
+}
+.Commodity_content .shop{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	color: #767676;
+}
+.Commodity_content .price{
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 18px;
+	color: #FF0000;
+}
+.Commodity_content .price span{
+	font-size: 22px;
+}
+.Commodity_content .exchange{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	width: 138px;
+	margin: 5px auto;
+	background: #FF6600;
+}
+.Commodity_content li{
+	margin: 15px 32.5px 15px 0px;
+	position: relative;
+}
+.Commodity_content .marg_right{
+	margin-right: 0px;
+}
+/*每月推荐广告*/
+#monthly_ad{
+	height: 92px;
+	margin: 40px auto;
+}
+#member_price .vapjia{
+	position: absolute;
+	top: 170px;
+}
+/*会员特权*/
+#member_privilege .vip_privilege{
+	width: 1170px;
+	height: 330px;
+	margin: 40px auto;
+}
+#member_privilege .vip_privilege .marg_right{
+	margin-right: 40px;
+}
+/*底部*/
+#foot .linear{
+	height: 6px;
+	background: #FF6600;
+}
+#foot .foot_title{
+	height:96px;
+	background: #f2f2f2;
+}
+#foot .foot_title .width880{
+	width:880px;
+	height:auto;
+	margin:0 auto;
+}
+#foot .foot_title .width880 .img{
+	height:50px;
+	width: 132px;
+	float: left;
+	margin:23px 44px;
+}
+#foot .foot_content{
+	width:1000px;
+	height:360px;
+}
+#foot .foot_content .left_content{
+	width: 800px;
+	height: 360px;
+}
+#foot .foot_content .right_img{
+	width: 162px;
+	height: 86px;
+	margin:60px 0px 0px 30px;
+}
+#foot .foot_content .left_content dl{
+	width: 160px;
+	height: 260px;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+	float: left;
+	margin-top: 40px;
+}
+#foot .foot_content .left_content dl dt{
+	font-size: 18px;
+	font-weight: bold;
+}

@@ -1,0 +1,105 @@
+/*注册页面*/
+#head{
+	position: relative;
+	background: #101010;
+	height: 22px;
+}
+#head .lego{
+	position: relative;
+	left: 262px;
+	height: 22px;
+	line-height: 22px;
+	display: block;
+	color: white;
+}
+#head .log{
+	position: absolute;
+	top: 0px;
+}
+#head .lego_login{
+	color: white;
+	height: 22px;
+	line-height: 22px;
+	padding-top: 2px;
+}
+#head .lego_login a{
+	color: #FF6600;
+}
+#head .login_text{
+	width: 920px;
+	height: 82px;
+	line-height: 82px;
+}
+#head .bod_bottom{
+	height: 81px;
+	border-bottom: 4px solid #ccc;
+}
+#head .bod_bottom .yyh{
+	line-height: 120px;
+}
+/*注册内容*/
+#register_content .yh,.mima,.mimas,.shouji,.yanzheng,.shouji_yanzheng{
+	width: 402px;
+	height: 46px;
+	margin: 55px auto 0px auto;
+}
+#register_content input{
+	font-size: 16px;
+	outline: none;
+	border: solid 1px #CCCCCC;
+	border-left: 0px;
+}
+#register_content .put{
+	width: 262px;
+	height: 44px;
+}
+#register_content .tishi{
+	width: 130px;
+	height: 44px;
+	line-height: 44px;
+	text-align: center;
+	font-size: 20px;
+	border: solid 1px #CCCCCC;
+	border-right: 0px;
+	background: white;
+}
+#register_content .yanzheng_text{
+	width: 127px;
+	height: 39px;
+	border: solid 1px #CCCCCC;
+	border-left: 0px;
+	padding-top: 5px;
+}
+#register_content .widht_input{
+	width: 137px;
+	height: 44px;
+	border-right: 0px;
+}
+#register_content .xieyi{
+	width: 400px;
+	height: 56px;
+	margin: 0px auto;
+	line-height: 28px;
+}
+#register_content .xieyi input{
+	width: 14px;
+	height: 14px;
+	margin-top: 16px;
+}
+#register_content .zhuce{
+	width: 400px;
+	height: 44px;
+	line-height: 44px;
+	margin: 0px auto;
+	background: #FF6600;
+	color: white;
+	margin-bottom: 40px;
+}
+#register_content .xian{
+	border-bottom: 2px solid #CCCCCC;
+}
+/*页尾*/
+.boof{
+	height: 200px;
+	padding-top: 50px;
+}
