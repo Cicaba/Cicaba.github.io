@@ -37,3 +37,210 @@
 	margin-bottom: 10px;
 }
 /*购物车内容*/
+.content .title{
+	height:48px;
+	width:100%;
+	line-height:70px;
+}
+.content .select{
+	width:100%;
+	height:60px;
+	background: #f2f2f2;
+	margin-bottom:20px;
+}
+.content .select div{
+	height:60px;
+	line-height:60px;
+	font-size:16px;
+}
+.content .select .text1{
+	width:240px;
+	margin-left:25px;
+}
+.content .select .text2{
+	width:380px;
+}
+.content .select .text3{
+	width:160px;
+}
+.content .select .text4{
+	width:150px;
+}
+.content .select .text5{
+	width:120px;
+}
+.content .content_book{
+	border-top:solid 6px #f2f2f2;
+	width:100%;
+	height:100%;
+}
+
+.content .content_book .books{
+	width:100%;
+	height:203px;
+	border-bottom:1px solid #ccc;
+}
+.content .content_book .books .select1{
+	width:48px;
+	height:100%;
+	padding-left:26px;
+	line-height:50px;
+}
+.content .content_book .books .book_img{
+	width:112px;
+	height: 147px;
+	border:solid 1px #ccc;
+	margin-top:26px;
+}
+.content .content_book .books .book_text{
+	height:100%;
+	width:400px;
+	line-height:80px;
+	text-indent:76px;
+}
+.content .content_book .books .jiage{
+	width:120px;
+	height:100%;
+	line-height:80px;
+	text-indent:52px;
+}
+.content .content_book .books .shu{
+	width:138px;
+	height:175px;
+	padding-top:28px;
+	padding-left:62px;
+}
+.content .content_book .books .shu input{
+	width: 64px;
+	height: 20px;
+	text-align: center;
+	outline:none;
+	border:1px solid #ccc;
+	border-left:0px;
+	border-right:0px;
+}
+.content .content_book .books .shu .jia,.jian{
+	width:20px;
+	height:20px;
+	line-height:20px;
+	border:1px solid #ccc;
+	text-align: center;
+	font-size:14px;
+}
+.content .content_book .books .xiaoji{
+	width:150px;
+	height:100%;
+	line-height:80px;
+	text-indent:48px;
+}
+.content .content_book .books .caozuo{
+	width:138px;
+	height: 175px;
+	padding-top:28px;
+	text-indent:20px;
+}
+.content .accounts{
+	width:100%;
+	height:60px;
+	margin-top:40px;
+}
+.content .accounts ul{
+	height:58px;
+	width:1069px;
+	border:1px solid #ccc;
+	border-right:0;
+}
+.content .accounts .right_accounts{
+	width:128px;
+	height:60px;
+	line-height: 60px;
+	background: #f60;
+	color: white;
+	text-align: center;
+	font-size:26px;
+}
+.content .accounts .left{
+	height: 58px;
+	line-height:58px;
+	width:500px;
+	text-indent:10px;
+}
+.content .accounts .right{
+	height: 58px;
+	line-height:58px;
+	width:500px;
+	text-indent:200px;
+}
+/*推荐*/
+.recommend .title{
+	margin-top:40px;
+	height:46px;
+	width:100%;
+	border-bottom:6px solid #FF6600;
+}
+.recommend .title .text{
+	width:130px;
+	height: 100%;
+	background: #FF6600;
+	color: white;
+	line-height:46px;
+	text-align: center;
+}
+.recommend .content{
+	width:100%;
+	height:100%;
+}
+.recommend .content li{
+	width:240px;
+	height:300px;
+	text-align: center;
+}
+.recommend .content li:hover{
+	background: #f2f2f2;
+}
+/*底部*/
+#foot .linear{
+	height: 6px;
+	background: #FF6600;
+}
+#foot .foot_title{
+	height:96px;
+	background: #f2f2f2;
+}
+#foot .foot_title .width880{
+	width:880px;
+	height:auto;
+	margin:0 auto;
+}
+#foot .foot_title .width880 .img{
+	height:50px;
+	width: 132px;
+	float: left;
+	margin:23px 44px;
+}
+#foot .foot_content{
+	width:1000px;
+	height:360px;
+}
+#foot .foot_content .left_content{
+	width: 800px;
+	height: 360px;
+}
+#foot .foot_content .right_img{
+	width: 162px;
+	height: 86px;
+	margin:60px 0px 0px 30px;
+}
+#foot .foot_content .left_content dl{
+	width: 160px;
+	height: 260px;
+	line-height: 36px;
+	font-size: 16px;
+	text-align: center;
+	float: left;
+	margin-top: 40px;
+}
+#foot .foot_content .left_content dl dt{
+	font-size: 18px;
+	font-weight: bold;
+}

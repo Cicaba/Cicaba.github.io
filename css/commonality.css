@@ -25,6 +25,9 @@
 .text_align{
 	text-align: center;
 }
+.text_right{
+	text-align: right;
+}
 .margin_auto{
 	margin: 0px auto;
 }

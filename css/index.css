@@ -576,3 +576,69 @@
 	font-size: 18px;
 	font-weight: bold;
 }
+/*固定导航*/
+.nav{
+	max-width:80px;
+	height:200px;
+	position: fixed;
+	top:300px;
+	left:0px;
+}
+.nav li{
+	max-width:80px;
+	height:40px;
+}
+.nav li label{
+	width:40px;
+	height:40px;
+	line-height:40px;
+	text-align: center;
+	background: #d2f4ff;
+	display: none;
+}
+.nav li .img{
+	width:40px;
+	height:40px;
+	background: #f2f2f2;
+	cursor: pointer;
+}
+.nav li .img:hover +label{
+	display: block;
+}
+.nav li .img img{
+	width:40px;
+	height:40px;
+}
+/*二维码*/
+.code{
+	float: right;
+	height: 179px;
+	width: 39px;
+	position: fixed;
+	top:300px;
+	right:0px;
+}
+.code li{
+	position: relative;
+}
+.code .img{
+	position: absolute;
+	top:0px;
+	right:39px;
+	display: none;
+}
+.code .hv:hover+img{
+	display: block;
+}
+.code .numeral{
+	width:16px;
+	height:16px;
+	line-height:16px;
+	text-align: center;
+	border-radius:8px;
+	background: red;
+	color: white;
+	position: relative;
+	top:-39px;
+	left:0px;
+}
