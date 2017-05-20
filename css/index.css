@@ -1,3 +1,6 @@
+.nav{
+	position: relative;
+}
 /*头部*/
 #head #head_bg{
 	height: 28px;
@@ -10,36 +13,47 @@
 	line-height: 28px;
 	color: #ff6600;
 }
+	/*滚动的搜素框*/
+#head .hied{
+	width: 100%;
+	height: 38px;
+	display: none;
+	background: #FF6600;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 9;
+}
 	/*搜素*/
-#head #search{
+#head .search{
 	height: 36px;
 	width: 686px;
 }
-#head #search input{
+#head .search input{
 	width: 390px;
 	height: 33px;
 	border: solid 2px #ff6600;
 	outline: none;
 	
 }
-#head #search #btn img{
+#head .search .btn img{
 	height: 36.2px;
 	width: 50px;
 	background: #ff6600;
 }
-#head #search #frame input{
+#head .search .frame input{
 	text-indent: 5px;
 }
-#head #btns{
+#head .btns{
 	width: 202px;
 	height: 38px;
 }
-#head #btns #shop_car{
+#head .btns .shop_car{
 	width: 100px;
 	background: #ff6600;
 	color: white;
 }
-#head #btns #indent{
+#head .btns .indent{
 	width: 98px;
 	height: 34px;
 	background: #ebebeb;
@@ -118,6 +132,19 @@
 		position: relative;
 		z-index: 1;
 	}
+.hover_{
+		width: 198px;
+		height: 28px;
+		line-height: 28px;
+		text-indent: 14px;
+		background: white;
+		border: 1px solid #FF6600;
+		border-right: 1px solid white;
+		position: relative;
+		z-index: 1;
+	}
+
+
 	#focus_img .menu li:hover >.child_menu{
 		display: block;
 	}
@@ -173,6 +200,7 @@
 	font-size: 22px;
 }
 /*电子书*/
+
 #e_book .left_content{
 	width: 900px;
 	height:440px;
@@ -602,9 +630,7 @@
 	background: #f2f2f2;
 	cursor: pointer;
 }
-.nav li .img:hover +label{
-	display: block;
-}
+
 .nav li .img img{
 	width:40px;
 	height:40px;

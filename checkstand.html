@@ -7,6 +7,7 @@
     	<link rel="stylesheet" href="css/public.css">
     	<link rel="stylesheet" type="text/css" href="css/commonality.css"/>
     	<link rel="stylesheet" type="text/css" href="css/checkstand.css"/>
+        <script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
     <!--头部-->
@@ -126,5 +127,30 @@
             </div>
         </div>
     </div>
+    <!--蒙层-->
+    <div class="meng">
+        <div class="content">
+            <input type="text" placeholder="用户名">
+            <input type="text" value="密码" class="prompt">
+            <input type="password" class="password">
+        </div>
+    </div>
+    <script>
+        $('.meng').css('height');
+        $('.meng .content').css('margin-top',($('.meng').height()-200)/2)
+        $('.promptly').click(function () {
+            $('.meng').show();
+        })
+        $('.prompt').focus(function () {
+            $('.prompt').hide();
+            $('.password').show().focus();
+        })
+        $('.password').blur(function(){
+            if($('.password').val()==''){
+                $('.prompt').show();
+                $('.password').hide();
+            }
+        })
+    </script>
 </body>
 </html>

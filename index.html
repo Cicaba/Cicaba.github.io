@@ -7,6 +7,10 @@
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<link rel="stylesheet" type="text/css" href="css/commonality.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/lunbo.css"/>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/index.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lunbo.js" type="text/javascript" charset="utf-8"></script>
 	</head>
 	<body>
 		<!--头部标题-->
@@ -20,21 +24,35 @@
 					<img src="img/LOGO_02.jpg" class="fl"/>
 				</div>
 			</div>
-			<!--搜素-->
-			<div class="width-1200">
-				<div id="search" class="fr">
-					<div class="fl">
-						<div id="frame" class="fl"><input placeholder="创意文字" type="text" name="" id="" value="" /></div>
-						<div id="btn" class="fl"><a href="#"><img src="img/sousuo.jpg"/></a></div>
-					</div>
-					<!--购物车 订单-->
-					<div id="btns" class="fr">
-						<a href="shopping_cart.html"><div id="shop_car" class="fl"><img src="img/lego_home.jpg"/> 3</div></a>
-						<a href="checkstand.html"><div id="indent" class="fl">我的订单</div></a>
+			<!--滚动的搜素框-->
+			<div class="hied">
+				<div class="width-1200">
+					<div class="search fr">
+						<div class="fl">
+							<div class="frame fl"><input placeholder="创意文字" type="text" name="" id="sss" value="" /></div>
+							<div class="btn fl"><a href="#"><img src="img/sousuo.jpg"/></a></div>
+						</div>
+						<!--购物车 订单-->
+						<div class="btns fr">
+							<a href="shopping_cart.html"><div class="shop_car fl"><img src="img/lego_home.jpg"/> 3</div></a>
+							<a href="checkstand.html"><div class="indent fl">我的订单</div></a>
+						</div>
 					</div>
 				</div>
-				
-				
+			</div>
+			<!--搜素-->
+			<div class="width-1200">
+				<div class="search fr">
+					<div class="fl">
+						<div class="frame fl"><input id="ss" placeholder="创意文字" type="text" name="" value="" /></div>
+						<div class="btn fl"><a href="#"><img src="img/sousuo.jpg"/></a></div>
+					</div>
+					<!--购物车 订单-->
+					<div class="btns fr">
+						<a href="shopping_cart.html"><div class="shop_car fl"><img src="img/lego_home.jpg"/> 3</div></a>
+						<a href="checkstand.html"><div class="indent fl">我的订单</div></a>
+					</div>
+				</div>
 			</div>
 			<!--<div class="clear_float"></div>-->
 			<!--导航菜单-->
@@ -861,7 +879,30 @@
 			</div>
 			<!--轮播-->
 			<div class="lunbo fr">
-				<img src="img/pp1_05.jpg"/>
+				<div class="boxwrapper" id="aa">
+						<ul class="boxinner">
+							<li><a href="#"><img src="img/index11_08.jpg"/></a></li>
+							<li><a href="#"><img src="img/index10_05.jpg"/></a></li>
+							<li><a href="#"><img src="img/index11_08.jpg"/></a></li>
+							
+							
+						</ul>
+						<ul class="btnitem">
+							<li class="current">1</li>
+							<li>2</li>
+							<li>3</li>
+						</ul>
+						<span class="btnleft"></span>
+						<span class="btnright"></span>
+				</div>
+				<script type="text/javascript">
+					var ops2={
+						width:1000,//轮播的宽度
+						height:430,//轮播的高度
+						isShowbtn:true //是否显示左右的按钮
+					};
+					$("#aa").tySlide(ops2);
+				</script>
 			</div>
 		</div>
 		<div class="clear_float"></div>
@@ -957,7 +998,7 @@
 		</div>
 		<div class="clear_float"></div>
 		<!--电子书-->
-		<div id="e_book" class="width-1200">
+		<div id="e_book" class="width-1200 nav_menu">
 			<!--label 选项卡-->
 			<div class="left_content fl">
 				<div class="lebel_head">电子书</div>
@@ -1107,7 +1148,7 @@
 		</div>
 		<div class="clear_float"></div>	
 		<!--服装-->
-		<div class="apparel width-1200">
+		<div class="apparel width-1200 nav_menu">
 			<div class="title size22">服装</div>
 			<li>
 				<input type="radio" checked name="lab" id="fz1" value="" />
@@ -1196,7 +1237,7 @@
 		</div>
 		<div class="clear_float"></div>
 		<!--户外运动-->
-		<div id="member_price">
+		<div id="member_price" class="nav_menu">
 			<div class="apparel width-1200">
 				<div class="title size22">服装</div>
 				<li>
@@ -1287,7 +1328,7 @@
 		</div>
 		<div class="clear_float"></div>
 		<!--童装-->
-		<div id="member_privilege">
+		<div id="member_privilege" class="nav_menu">
 			<div class="apparel width-1200">
 				<div class="title size22">服装</div>
 				<li>
@@ -1378,7 +1419,7 @@
 		</div>
 		<div class="clear_float"></div>
 		<!--家具日用-->
-		<div class="furniture width-1200">
+		<div class="furniture width-1200 nav_menu">
 			<div class="title size22">家具日用</div>
 			<div class="content_left fl"><img src="img/index21.jpg" alt=""></div>
 			<div class="content_right fl">
@@ -1394,7 +1435,7 @@
 		</div>
 		<div class="clear_float"></div>
 		<!--推广商品-->
-		<div class="popularize width-1200">
+		<div class="popularize width-1200 nav_menu">
 			<div class="title size22">推广商品</div>
 			<div class="content">
 				<li>
@@ -1517,6 +1558,7 @@
 						</div>
 					</div>
 					<div class="right_img fr"><img src="img/logo_00.png"/></div>
+					<div id="shijian" class="size22"></div>
 				</div>
 			</div>
 		</div>
@@ -1528,19 +1570,19 @@
 			</li>
 			<li>
 				<div class="img fl"><img src="img/indexleft_08.png" alt=""></div>
-				<label class="fl">图书</label>
+				<label class="fl">服装</label>
 			</li>
 			<li>
 				<div class="img fl"><img src="img/indexleft_11.png" alt=""></div>
-				<label class="fl">图书</label>
+				<label class="fl">童装</label>
 			</li>
 			<li>
 				<div class="img fl"><img src="img/indexleft_14.png" alt=""></div>
-				<label class="fl">图书</label>
+				<label class="fl">运动</label>
 			</li>
 			<li>
 				<div class="img fl"><img src="img/indexleft_17.png" alt=""></div>
-				<label class="fl">图书</label>
+				<label class="fl">户外</label>
 			</li>
 		</div>
 		<!--二维码-->
